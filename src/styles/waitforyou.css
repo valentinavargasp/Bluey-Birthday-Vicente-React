@@ -1,0 +1,28 @@
+.wait-for-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.waiting-message {
+    font-size: 2.5em;
+    color: #ff6347;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.vicente-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vicente-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}

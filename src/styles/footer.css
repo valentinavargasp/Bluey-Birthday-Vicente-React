@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2a3d66;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'HelloHeadline';
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 1.2em;
+    margin: 0;
+    letter-spacing: 1px;
+}
