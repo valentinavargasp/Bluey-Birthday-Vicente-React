@@ -1,8 +1,6 @@
-// src/components/Countdown.jsx
 import React from 'react';
 import Countdown from 'react-countdown';
 import '../styles/countdown.css';
-import balloon from '../assets/balloon.png'
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -10,9 +8,8 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   } else {
     return (
       <div className="countdown">
-        <h2>Cuenta regresiva para el cumpleaños:</h2>
+        <h2>Cuenta regresiva para el gran festejo</h2>
         <div className="countdown-container">
-          <img className='balloonImg' src={balloon} alt="" />
           <div className="countdown-item">
             {days}
             <span className="countdown-label">Días</span>

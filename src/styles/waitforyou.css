@@ -4,25 +4,21 @@
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
-    margin-bottom: 20px;
     text-align: center;
+    background-image: url('../assets/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .waiting-message {
     font-size: 2.5em;
-    color: #ff6347;
-    margin-bottom: 20px;
+    color: #dd761c;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.vicente-image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.vicente-img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
+.wait-for-you h3{
+    font-size: 1.25em;
+    color: #305889;
 }

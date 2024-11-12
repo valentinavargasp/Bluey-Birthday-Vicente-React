@@ -1,29 +1,17 @@
 import React from 'react';
-import blueyImage from '../assets/bluey-bingo-hugging.png'; 
+import blueyImage from '../assets/birthday.png';
 import '../styles/invitationdetails.css';
 
 const InvitationDetails = () => (
   <section className="invitation-details">
     <div className="invitation-header">
-      <h2>Detalles del Cumpleaños</h2>
+      <h2>18 de noviembre</h2>
+      <div className='horario'>
+        <h3>Hora</h3>
+        <h4>17:00 PM</h4>
+      </div>
+
       <img src={blueyImage} alt="Bluey" className="bluey-img" />
-    </div>
-    <div className="details-info">
-      <p><strong>Fecha:</strong> 18 de Noviembre</p>
-      <p><strong>Ubicación:</strong> Calle 21 765 entre 14 y 16</p>
-      <p><strong>Hora:</strong> 17:00 PM</p>
-    </div>
-    <div className="map-container">
-      <h3>Ubicación en el Mapa</h3>
-      {/* iframe de Google Maps */}
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1357.2876793260323!2d-65.43899166210804!3d-36.21807574048294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2sar!4v1731355759587!5m2!1ses-419!2sar"
-        width="100%"
-        height="300"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-      ></iframe>
     </div>
   </section>
 );
